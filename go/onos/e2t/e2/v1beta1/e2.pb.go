@@ -140,6 +140,10 @@ const (
 	Error_Cause_Ric_INCONSISTENT_ACTION_SUBSEQUENT_ACTION_SEQUENCE Error_Cause_Ric_Type = 8
 	Error_Cause_Ric_CONTROL_MESSAGE_INVALID                        Error_Cause_Ric_Type = 9
 	Error_Cause_Ric_CALL_PROCESS_ID_INVALID                        Error_Cause_Ric_Type = 10
+	//zhenlu added
+	Error_Cause_Ric_CONTROL_TIMER_EXPIRED                          Error_Cause_Ric_Type = 11
+	Error_Cause_Ric_CONTROL_FAILED_TO_EXECUTE                      Error_Cause_Ric_Type = 12
+	Error_Cause_Ric_CONTROL_SYSTEM_NOT_READY                       Error_Cause_Ric_Type = 13
 )
 
 var Error_Cause_Ric_Type_name = map[int32]string{
